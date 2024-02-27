@@ -13,7 +13,7 @@
 <body class="container">
     <header>
         <h1>SvelteKit search box demo:</h1>
-        See tutorial
+        See code tutorial
     </header>
     <main>
         <input
@@ -31,14 +31,27 @@
             </ul>
         {/each}
     </main>
-    <footer>Made by olek</footer>
+    <footer>
+        <div class="grid">
+            <div>
+                See <a
+                    href="https://github.com/PanZWarzywniaka/sveltekit-searchbox-demo"
+                    >code</a
+                >
+            </div>
+            <div>
+                Made by <a href="https://olek.site/">Olek</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <style>
     footer {
         position: absolute;
         bottom: 0;
-        /* width: 100%; */
-        height: 2.5rem; /* Footer height */
+        border-top: solid 1px gray;
+        width: 80%;
+        /* height: 2.5rem; */
     }
 </style>
