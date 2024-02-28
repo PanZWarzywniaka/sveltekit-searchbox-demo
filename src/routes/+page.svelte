@@ -13,7 +13,10 @@
 <body class="container">
     <header>
         <h1>SvelteKit search box demo:</h1>
-        See code tutorial
+        See
+        <a href="https://olek.site/blog/location-search-bar-using-sveltekit">
+            code tutorial
+        </a>
     </header>
     <main>
         <input
